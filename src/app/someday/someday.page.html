@@ -10,7 +10,7 @@
     <div class="list">
       <ion-list>
         <ion-item-sliding *ngFor="let task of taskList; index as i">
-          <ion-item>
+          <ion-item class="task-item">
             <ion-label>{{task}}</ion-label>
             <ion-icon name="checkmark-circle" (click)="deleteItem(i)"></ion-icon>
           </ion-item>
