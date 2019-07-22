@@ -1,5 +1,7 @@
 {
   "name": "Today: Simple Tasks",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
