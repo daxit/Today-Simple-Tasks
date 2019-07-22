@@ -24,6 +24,7 @@ export class SomedayPage implements OnInit {
   addItem() {
     this.taskList.push(this.task);
     this.storage.set("somedayTasks", this.taskList);
+    this.task = "";
   }
 
   deleteItem(itemIndex) {

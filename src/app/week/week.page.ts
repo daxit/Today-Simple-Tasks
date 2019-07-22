@@ -24,6 +24,7 @@ export class WeekPage implements OnInit {
   addItem() {
     this.taskList.push(this.task);
     this.storage.set("weekTasks", this.taskList);
+    this.task = "";
   }
 
   deleteItem(itemIndex) {

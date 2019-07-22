@@ -4,11 +4,11 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content scroll-y="false">
   <div class="container">
 
     <div class="list">
-      <ion-list>
+      <ion-list lines="none">
         <ion-item-sliding *ngFor="let task of taskList; index as i">
           <ion-item class="task-item">
             <ion-label>{{task}}</ion-label>
@@ -28,7 +28,7 @@
       </ion-list>
     </div>
 
-    <ion-item>
+    <ion-item lines="none">
       <ion-input placeholder="Start typing..." [(ngModel)]="task"></ion-input>
       <ion-button icon-only (click)="addItem()">
         <ion-icon name="arrow-up"></ion-icon>

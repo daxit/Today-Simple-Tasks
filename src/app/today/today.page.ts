@@ -24,6 +24,7 @@ export class TodayPage implements OnInit {
   addItem() {
     this.taskList.push(this.task);
     this.storage.set("todayTasks", this.taskList);
+    this.task = "";
   }
 
   deleteItem(itemIndex) {

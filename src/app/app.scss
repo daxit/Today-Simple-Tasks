@@ -8,5 +8,15 @@
 .task-item {
     --padding-top: 10px;
     --padding-bottom: 10px;
-    --border-style: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.list {
+    flex-grow: 1;
+}
+ion-item-option {
+    width: 4rem;
 }
