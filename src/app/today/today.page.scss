@@ -1,0 +1,20 @@
+.title {
+    font-size: 3rem;
+    margin: 30px 10px 10px 20px;
+    color: #333333;
+}
+.task {
+    margin: 20px 20px;
+    padding: 15px 30px;
+    border-radius: 12px;
+    background-color: #4F517D;
+    color: #ffffff;
+}
+.task .name {
+    font-size: 2rem;
+}
+.add-item {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
